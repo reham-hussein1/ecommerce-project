@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Accessories |ROMA</title>
+    <title>Profile|ROMA</title>
     <link rel="stylesheet" href="styles/nav.css" />
     <link rel="stylesheet" href="styles/home.css" />
     <link rel="stylesheet" href="styles/contact.css" />
-    <link rel="icon" href ="images/3.svg"/>
+    <link rel="icon" href="images/3.svg" />
 
     <link
       rel="stylesheet"
@@ -34,110 +34,34 @@
     />
   </head>
   <body>
-    <!-- header part -->
-    <section class="contact">
-      <div class="container">
-        <div>
-          <header>
-            <div class="container">
-              <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
-                <a class="navbar-brand" href="#" id="logo">ROMA.</a>
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#navbarScroll"
-                  aria-controls="navbarScroll"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="container">
-                  <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul
-                      class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll"
-                      style="max-height: 100px"
-                    >
-                      <li class="nav-item active">
-                        <a class="nav-link" href="index.html" id="nav-link"
-                          >Man <span class="sr-only">(current)</span></a
-                        >
-                      </li>
-
-                      <li class="nav-item">
-                        <a class="nav-link" href="woman.html" id="nav-link"
-                          >woman</a
-                        >
-                      </li>
-
-                      <li class="nav-item">
-                        <a class="nav-link" href="kids.html" id="nav-link"
-                          >Kids</a
-                        >
-                      </li>
-
-                      <li class="nav-item">
-                        <a
-                          class="nav-link"
-                          href="accessories.html"
-                          id="nav-link"
-                          >Accessories</a
-                        >
-                      </li>
-
-                      <li class="nav-item">
-                        <a class="nav-link" href="contact.html" id="nav-link"
-                          >Contact</a
-                        >
-                      </li>
-
-                      <li class="nav-item">
-                        <a class="nav-link" href="about.html" id="nav-link"
-                          >About</a
-                        >
-                      </li>
-                    </ul>
-                    <div style="display: flex">
-                      <i class="bx bx-user-circle" id="user-icon">
-                        <div class="drop-pof">
-                          <div>
-                            <i class="bx bx-log-out"> </i>
-                            <a href="login.html">login/out</a>
-                          </div>
-                          <div>
-                            <i class="bx bxs-user-account"> </i>
-                            <a href="profile.html">Account</a>
-                          </div>
-                        </div>
-                      </i>
-
-                      <a href="cart.html">
-                        <i
-                          class="bx bxs-cart"
-                          id="cart-icon"
-                          data-quantity="0"
-                        ></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </nav>
-            </div>
-          </header>
-          <h4 class="about-h4">Accessories Products</h4>
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <div class="prof-sec-all">
+          <div id="div-sec-all-back">
+            <a href="index.html">
+              <i class="bx bx-arrow-back"></i>
+              Back to Home
+            </a>
+          </div>
+          <div id="prof-img">
+            <img
+              src="https://writestylesonline.com/wp-content/uploads/2016/08/Follow-These-Steps-for-a-Flawless-Professional-Profile-Picture.jpg"
+              alt=""
+            />
+            <i class='bx bx-image-add' id="img-add-prof"></i>
+          </div>
+          <div class="content-img">
+          </div>
+        </div>
+        <div class="page-content">
+          <h4 class="content-con">User Name</h4>
+          <p class="content-con">example@gmail.com</p>
+          <p class="content-con">Address: Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, praesentium!</p>
         </div>
       </div>
-    </section>
-    <!-- home part -->
-
-    <!-- products part -->
-    <section class="products container" id="products">
-      <!-- products container -->
-      <div class="product-container" id="productlist"></div>
-    </section>
-    <!-- footer -->
-
+      <div class="col-md-2"></div>
+    </div>
     <footer>
       <div class="container" id="footer-con">
         <div class="row">
@@ -148,10 +72,7 @@
               </div>
 
               <div class="col-md-2">
-                <a
-                  href="https://www.facebook.com/RomaOnlineBrand?mibextid=ZbWKwL">
-                  <i class="bx bxl-facebook"></i>
-                </a>
+                <i class="bx bxl-facebook"></i>
               </div>
               <div class="col-md-2">
                 <i class="bx bxl-instagram"></i>
@@ -232,8 +153,5 @@
         </div>
       </div>
     </footer>
-    <!-- link javascript -->
-    <script src="scripts/accessories.js"></script>
-    <script src="scripts/menu.js"></script>
   </body>
 </html>
